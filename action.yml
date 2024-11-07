@@ -1,0 +1,13 @@
+name: 'Sia Action'
+description: 'My composite action'
+
+branding:
+  icon: 'award'
+  color: 'green'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Perform step
+      run: echo "action completed."
+      shell: bash
